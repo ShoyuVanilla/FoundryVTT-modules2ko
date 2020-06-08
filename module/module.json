@@ -1,0 +1,19 @@
+{
+	"name": "moduletemplate",
+	"title": "Module Template",
+	"description": "FVTT module template",
+	"version": "0.0.0",
+	"minimumCoreVersion" : "0.6.0",
+	"compatibleCoreVersion": "0.6.0",
+	"author": "Shoyu Vanilla",
+	
+	"esmodules": [],
+	"styles": [],
+	
+	"languages": [],
+	
+	"url": "https://github.com/ShoyuVanilla/FoundryVTT-module-template",
+	"manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-module-template/master/module/module.json",
+	"download": "https://github.com/ShoyuVanilla/FoundryVTT-module-template/releases/download/v0.0.0/release.zip"
+}
+  
