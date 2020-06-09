@@ -1,0 +1,14 @@
+#modules2ko-config .package-list {
+  max-height: 600px;
+}
+#modules2ko-config .package-list h3 input[type="checkbox"] {
+  margin-top: 4px;
+}
+#modules2ko-config .package-list .package-metadata {
+  flex: 0 0 100%;
+}
+#modules2ko-config .package-list .package-title,
+#modules2ko-config .package-list .package-metadata,
+#modules2ko-config .package-list .package-description {
+  color: #191813;
+}

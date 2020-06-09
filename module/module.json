@@ -1,19 +1,16 @@
 {
-	"name": "moduletemplate",
-	"title": "Module Template",
-	"description": "FVTT module template",
+	"name": "modules2ko",
+	"title": "modules2ko",
+	"description": "한국어 공식 번역이 포함되지 않은 모듈을 한국어로 번역합니다.",
 	"version": "0.0.0",
-	"minimumCoreVersion" : "0.6.0",
-	"compatibleCoreVersion": "0.6.0",
+	"minimumCoreVersion" : "0.6.2",
+	"compatibleCoreVersion": "0.6.2",
 	"author": "Shoyu Vanilla",
-	
-	"esmodules": [],
-	"styles": [],
-	
-	"languages": [],
-	
-	"url": "https://github.com/ShoyuVanilla/FoundryVTT-module-template",
-	"manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-module-template/master/module/module.json",
-	"download": "https://github.com/ShoyuVanilla/FoundryVTT-module-template/releases/download/v0.0.0/release.zip"
+
+	"scripts": ["scripts/modules2ko.js"],
+	"styles": ["css/style.css"],
+
+	"url": "https://github.com/ShoyuVanilla/FoundryVTT-modules2ko",
+	"manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-modules2ko/master/module/module.json",
+	"download": "https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/releases/download/v0.0.0/release.zip"
 }
-  

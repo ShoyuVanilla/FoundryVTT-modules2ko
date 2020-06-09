@@ -1,0 +1,38 @@
+<form autocomplete="off" onsubmit="event.preventDefault();">
+    <p class="notes">
+        현재 월드에서 한국어 번역을 적용할 모듈을 선택합니다.
+        목록에 없는 모듈은 한국어 번역이 이뤄지지 않은 모듈입니다.
+        <a href='https://github.com/ShoyuVanilla/FoundryVTT-modules2ko'>github 저장소</a>에서 번역을 추가하거나 수정할 수 있습니다.
+    </p>
+    <hr/>
+
+    <ul id="module-list" class="directory-list package-list">
+        {{#each modules}}
+        <li class="package flexrow" data-module-name="{{this.name}}">
+          <div class="package-overview flexrow">
+                <input type="checkbox" class="active" name="{{this.name}}" data-dtype="Boolean" {{checked this.active}}/>
+                <h3 class="package-title">{{this.title}}</h3>
+                <div class="package-tags">
+                    {{#if this.isOutdated }}
+                    <span class="tag unavailable">모듈 버전 {{ this.moduleVersion }} | 번역 버전 {{ this.translationVersion }}</span>
+                    {{else}}
+                    <span class="tag version">모듈 버전 {{ this.moduleVersion }} | 번역 버전 {{ this.translationVersion }}</span>
+                    {{/if}}
+                </div>
+            </div>
+
+            <ul class="package-metadata">
+                <li><strong>번역자:</strong> {{this.translator}}</li>
+            </ul>
+        </li>
+        {{ else }}
+        <p class="notes">현재 월드에 한국어 번역을 설정할 수 있는 모듈이 없습니다.</p>
+        {{/each}}
+    </ul>
+
+    {{#if canConfigure}}
+    <button type="submit" name="submit" value="1">
+        <i class="far fa-save"></i> 저장
+    </button>
+    {{/if}}
+</form>
