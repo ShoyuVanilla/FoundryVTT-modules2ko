@@ -1,7 +1,7 @@
 # Modules to Korean
 
 Foundry Virtual Tabletop에서 자체적으로 한국어화를 지원하지 않는 모듈을 번역하기 위한 모듈입니다.  
-각 모듈 개발자에게 직접 풀 리퀘스트나 번역 파일을 전달하더라도 반영이 늦을 수 있는 점을 보완하기 위해 제작했습니다.
+각 모듈 개발자에게 직접 풀 리퀘스트나 번역 파일을 전달하더라도 반영이 늦을 수 있는 점을 보완하기 위해 제작했습니다.  
 
 ## 설치
 
@@ -24,8 +24,10 @@ Foundry Virtual Tabletop에서 자체적으로 한국어화를 지원하지 않�
 ## 번역 기여하기
 
 > ⚠️ 흥미와 예시를 제공하기 위해 본 모듈은 스스로를 한국어화합니다!  
-> 번역 반영 과정이 헷갈릴 경우 [translations/modules2ko 폴더](https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/tree/master/translations/modules2ko) 내용을 참고하시길 바랍니다.
+> 번역 반영 과정이 헷갈릴 경우 [translations/modules2ko 폴더](https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/tree/master/translations/modules2ko) 내용을 참고하시길 바랍니다.  
+> 또한 D&D 등의 게임 시스템 번역은 컴펜디움 번역이나 별도 CSS 적용이 필요하니 본 모듈에 번역을 추가하는 것보다는 개별 번역 모듈로 만드는 것을 권장합니다.
 
+<br/><br/>
 ![](images/create_new_file.png)
 
 본 모듈의 `translations` 폴더에서 **Create new file** 버튼을 클릭해 번역 파일을 추가합니다.  
