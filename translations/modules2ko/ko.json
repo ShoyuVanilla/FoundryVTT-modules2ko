@@ -1,0 +1,9 @@
+{
+  "modules2ko.config": "모듈 한국어화 설정",
+  "modules2ko.config-hint": "각 모듈별로 한국어화 적용 여부를 설정할 수 있습니다.",
+  "modules2ko.config-button-label": "모듈 한국어화 설정",
+  "modules2ko.config-window-notes": "현재 월드에서 한국어화를 적용할 모듈을 선택합니다. 목록에 없는 모듈은 한국어 번역이 이뤄지지 않은 모듈입니다. 아래 github 저장소에서 번역을 수정하거나 추가할 수 있습니다.",
+  "modules2ko.module-version": "모듈 버전",
+  "modules2ko.translated-version": "번역 버전",
+  "modules2ko.translator": "역자"
+}
