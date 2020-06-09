@@ -1,3 +1,15 @@
 {
-	
+	"예시1": {
+		"translators": [
+			"Shoyu Vanilla"
+		],
+		"version": "0.1.2"
+	},
+	"예시2": {
+		"translators": [
+			"Tsuyu Vanilla(shoyuvanilla@gmail.com)",
+			"Shoyu Vanilla(Discord: Shoyu Vanilla#3445)"
+		],
+		"version": "3.5"
+	}
 }
