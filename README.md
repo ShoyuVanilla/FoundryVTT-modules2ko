@@ -24,7 +24,7 @@ Foundry Virtual Tabletop에서 자체적으로 한국어화를 지원하지 않�
 ## 번역 기여하기
 
 > ⚠️ 흥미와 예시를 제공하기 위해 본 모듈은 스스로를 한국어화합니다!  
-> 번역 반영 과정이 헷갈릴 경우 [translations/modules2ko 폴더](https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/tree/master/translations/modules2ko) 내용을 참고하시길 바랍니다.  
+> 번역 반영 과정이 헷갈릴 경우 [translations/modules2ko 폴더](https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/tree/master/translations/modules2ko)를 참고하시길 바랍니다.  
 > 또한 D&D 등의 게임 시스템 번역은 컴펜디움 번역이나 별도 CSS 적용이 필요하니 본 모듈에 번역을 추가하는 것보다는 개별 번역 모듈로 만드는 것을 권장합니다.
 
 ### 새 번역 추가하기
@@ -47,7 +47,7 @@ Foundry Virtual Tabletop에서 자체적으로 한국어화를 지원하지 않�
 <br/><br/>
 ![](images/pull_request.png)
 
-작성이 끝났으면 스크롤을 아래로 내린 후 **Propose changes** 버튼을 클릭해 제출합니다.  
+작성이 끝났으면 스크롤을 아래로 내린 후 **Propose new file** 버튼을 클릭해 제출합니다.  
 어떤 작업인지 알릴 수 있는 간단한 메시지를 첨부하면 좋습니다.
 
 <br/><br/>
@@ -78,13 +78,13 @@ version: <번역한 모듈 버전>
 
 역자를 적는 칸에는 사용하시는 닉네임 등을 적어 주시면 됩니다. 단, `Shoyu Vanilla(Discord: Shoyu Vanilla#3445)` 처럼 콜론(`:`)이나 대쉬(`-`), 샾(`#`) 등의 특수문자를 사용하는 경우, `- "Shoyu Vanilla(Discord: Shoyu Vanilla#3445)"` 와 같이 쌍따옴표(`"`)로 역자 이름을 둘러싸야 합니다.
 
-작성이 끝났다면 `ko.json` 파일을 추가한 경우와 마찬가지로 **Propose changes** 버튼을 클릭해 제출합니다.
+작성이 끝났다면 `ko.json` 파일을 추가한 경우와 마찬가지로 **Propose new file** 버튼을 클릭해 제출합니다.
 
 ### 기존 번역 수정하기
 
 ![](images/edit_file.png)
 
-기존 번역을 수정하시는 경우 번역을 수정할 파일에서 연필 모양 버튼을 클릭합니다.  
+기존 번역을 수정할 경우 번역을 수정할 파일에서 연필 모양 버튼을 클릭합니다.  
 수정을 마친 후 새 번역 파일을 추가했을 때와 마찬가지로 **Propose changes** 버튼을 클릭해 제출합니다.
 
 번역한 모듈이 업데이트 돼서 이에 맞게 번역 파일을 업데이트 할 경우 `meta.yml` 파일도 마찬가지로 수정해서 버전을 갱신합니다.
