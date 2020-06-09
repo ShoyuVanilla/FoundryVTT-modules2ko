@@ -27,7 +27,8 @@ Foundry Virtual Tabletop에서 자체적으로 한국어화를 지원하지 않�
 > 번역 반영 과정이 헷갈릴 경우 [translations/modules2ko 폴더](https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/tree/master/translations/modules2ko) 내용을 참고하시길 바랍니다.  
 > 또한 D&D 등의 게임 시스템 번역은 컴펜디움 번역이나 별도 CSS 적용이 필요하니 본 모듈에 번역을 추가하는 것보다는 개별 번역 모듈로 만드는 것을 권장합니다.
 
-<br/><br/>
+### 새 번역 추가하기
+
 ![](images/create_new_file.png)
 
 본 모듈의 `translations` 폴더에서 **Create new file** 버튼을 클릭해 번역 파일을 추가합니다.  
@@ -79,7 +80,8 @@ version: <번역한 모듈 버전>
 
 작성이 끝났다면 `ko.json` 파일을 추가한 경우와 마찬가지로 **Propose changes** 버튼을 클릭해 제출합니다.
 
-<br/><br/>
+### 기존 번역 수정하기
+
 ![](images/edit_file.png)
 
 기존 번역을 수정하시는 경우 번역을 수정할 파일에서 연필 모양 버튼을 클릭합니다.  
