@@ -2,7 +2,7 @@
 	"name": "modules2ko",
 	"title": "modules2ko",
 	"description": "한국어 공식 번역이 포함되지 않은 모듈을 한국어로 번역합니다.",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"minimumCoreVersion" : "0.6.2",
 	"compatibleCoreVersion": "0.6.2",
 	"author": "Shoyu Vanilla",
