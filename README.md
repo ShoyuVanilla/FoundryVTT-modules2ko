@@ -73,7 +73,7 @@ version: <번역한 모듈 버전>
 
 본 모듈을 예로 들면 모듈 명칭은 모듈의 `name` 항목에 해당하는 `modules2ko` 입니다.
 
-역자를 적는 칸에는 사용하시는 닉네임 등을 적어 주시면 됩니다. 단, `Shoyu Vanilla(Discord: Shoyu Vanilla#3445)` 처럼 SNS 계정 등을 적기 위해 콜론(`:`)이나 대쉬(`-`), 샾(`#`)등의 특수문자를 사용하는 경우, `- "Shoyu Vanilla(Discord: Shoyu Vanilla#3445)"` 와 같이 쌍따옴표(`"`)로 역자 이름을 둘러싸야 합니다.
+역자를 적는 칸에는 사용하시는 닉네임 등을 적어 주시면 됩니다. 단, `Shoyu Vanilla(Discord: Shoyu Vanilla#3445)` 처럼 콜론(`:`)이나 대쉬(`-`), 샾(`#`) 등의 특수문자를 사용하는 경우, `- "Shoyu Vanilla(Discord: Shoyu Vanilla#3445)"` 와 같이 쌍따옴표(`"`)로 역자 이름을 둘러싸야 합니다.
 
 작성이 끝났다면 `ko.json` 파일을 추가한 경우와 마찬가지로 **Propose changes** 버튼을 클릭해 제출합니다.
 
