@@ -1,8 +1,8 @@
 <form autocomplete="off" onsubmit="event.preventDefault();">
     <p class="notes">
-        현재 월드에서 한국어 번역을 적용할 모듈을 선택합니다.
-        목록에 없는 모듈은 한국어 번역이 이뤄지지 않은 모듈입니다.
-        <a href='https://github.com/ShoyuVanilla/FoundryVTT-modules2ko'>github 저장소</a>에서 번역을 추가하거나 수정할 수 있습니다.
+        {{localize "modules2ko.config-window-notes"}}
+        <br>
+        <i class="fab fa-github"></i>: <a href='https://github.com/ShoyuVanilla/FoundryVTT-modules2ko' target='_blank'>https://github.com/ShoyuVanilla/FoundryVTT-modules2ko</a>
     </p>
     <hr/>
 
@@ -14,15 +14,15 @@
                 <h3 class="package-title">{{this.title}}</h3>
                 <div class="package-tags">
                     {{#if this.isOutdated }}
-                    <span class="tag unavailable">모듈 버전 {{ this.moduleVersion }} | 번역 버전 {{ this.translationVersion }}</span>
+                    <span class="tag unavailable">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} | {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
                     {{else}}
-                    <span class="tag version">모듈 버전 {{ this.moduleVersion }} | 번역 버전 {{ this.translationVersion }}</span>
+                    <span class="tag version">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} | {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
                     {{/if}}
                 </div>
             </div>
 
             <ul class="package-metadata">
-                <li><strong>역자:</strong> {{this.translator}}</li>
+                <li><strong>{{localize "modules2ko.translator"}}:</strong> {{this.translator}}</li>
             </ul>
         </li>
         {{ else }}

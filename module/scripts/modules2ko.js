@@ -77,9 +77,9 @@ Hooks.once('ready', async () => {
 	await game.modules2ko.onReady();
 
 	game.settings.registerMenu("modules2ko", "modules2ko", {
-		name: "모듈 번역 설정",
-		label: "모듈 번역 설정",
-		hint: "각 모듈별로 한국어 번역 적용 여부를 설정할 수 있습니다.",
+		name: "modules2ko.config",
+		label: "modules2ko.config-button-label",
+		hint: "modules2ko.config-hint",
 		icon: "fas fa-language",
 		type: Modules2KoConfig,
 		restricted: false
@@ -90,7 +90,7 @@ class Modules2KoConfig extends FormApplication {
 
 	static get defaultOptions() {
 		return mergeObject(super.defaultOptions, {
-			title: "모듈 한국어화 설정",
+			title: game.i18n.localize("modules2ko.config"),
 			id: "modules2ko-config",
 			template: "modules/modules2ko/templates/modules2ko-config.html",
 			popOut: true,
