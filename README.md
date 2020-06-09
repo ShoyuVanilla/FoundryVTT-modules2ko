@@ -14,13 +14,13 @@ Foundry Virtual Tabletop에서 자체적으로 한국어 현지화를 지원하�
 모듈 설정 메뉴에서 본 모듈을 활성화합니다.  
 현재 언어 설정이 한국어로 되어 있을 경우 본 모듈에 번역 파일이 포함된 모든 모듈이 자동으로 번역됩니다.
 
-![](setting.png)
+![](images/setting.png)
 
 설정에서 각 모듈별로 한국어 번역 적용 여부를 설정할 수 있습니다.
 
 ## 번역 기여하기
 
-![](create_new_file.png)
+![](images/create_new_file.png)
 
 위와 같이 본 모듈의 `module/localizations` 폴더에서 **Create new file** 버튼을 클릭해 번역 파일을 추가합니다. 파일 이름은 `<번역한 모듈 명칭>.json` 형식이어야 합니다.
 
@@ -36,12 +36,12 @@ Foundry Virtual Tabletop에서 자체적으로 한국어 현지화를 지원하�
 
 본 모듈의 예를 들면, 위와 같이 모듈의 `name` 항목이 `modules2ko` 이므로 번역 파일 이름은 `modules2ko.json`입니다.
 
-![](pull_request.png)
+![](images/pull_request.png)
 
 작성이 끝났으면 스크롤을 아래로 내린 후 위와 같이 **Propose changes** 버튼을 클릭해 제출합니다.
 어떤 작업인지 알릴 수 있는 간단한 메시지를 첨부하면 좋습니다.
 
-![](edit_file.png)
+![](images/edit_file.png)
 
 다음으로 `module` 폴더 아래의 `info.json` 파일에서 위와 같이 연필 모양 아이콘을 클릭해 번역 정보를 기입합니다.
 

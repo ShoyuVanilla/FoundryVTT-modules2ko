@@ -1,13 +1,13 @@
 class Modules2ko {
 
-	_localizationInfo;
+	_l10nMetadata;
 
 	get modules() {
 		const modules = [];
 		const settings = game.settings.get('modules2ko', 'settings');
 		game.modules.forEach((module, moduleName) => {
-			if (module.active && (moduleName in this._localizationInfo)) {
-				let info = this._localizationInfo[moduleName];
+			if (module.active && (moduleName in this._l10nMetadata)) {
+				let info = this._l10nMetadata[moduleName];
 				let active = !settings.hasOwnProperty(moduleName) || settings[moduleName];
 				modules.push({
 					name: moduleName,
@@ -24,7 +24,7 @@ class Modules2ko {
 	}
 
 	async onReady() {
-		this._localizationInfo = await this._loadJsonObject('modules/modules2ko/info.json');
+		this._l10nMetadata = await this._loadJsonObject('modules/modules2ko/metadata.json');
 		await this._loadTranslations();
 	}
 
@@ -47,7 +47,7 @@ class Modules2ko {
 		const promises = [];
 		const settings = game.settings.get('modules2ko', 'settings');
 		game.modules.forEach((module, moduleName) => {
-			if (module.active && (moduleName in this._localizationInfo)) {
+			if (module.active && (moduleName in this._l10nMetadata)) {
 				let active = !settings.hasOwnProperty(moduleName) || settings[moduleName];
 				if (active) promises.push(this._loadJsonObject(`modules/modules2ko/localizations/${moduleName}.json`));
 			}
