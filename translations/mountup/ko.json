@@ -1,0 +1,55 @@
+{
+    "mu": {
+        "settings": {
+            "button": {
+                "name": "Mount Up! 설정",
+                "label": "Mount Up!"
+            },
+            "formHeaders": {
+                "hudSettings": "HUD 설정",
+                "riderBehavior": "Rider Behavior",
+                "chatSettings": "채팅 설정",
+                "save": "설정 저장"
+            },
+            "icon": {
+                "name": "아이콘",
+                "hint": "HUD에 표시될 아이콘"
+            },
+            "hudColumn": {
+                "name": "HUD 위치",
+                "hint": "버튼이 위치할 HUD에서의 방향"
+            },
+            "hudTopBottom": {
+                "name": "HUD 위/아래",
+                "hint": "버튼이 위치할 HUD에서의 높이"
+            },
+            "riderLock": {
+                "name": "탑승자를 탈 것에 고정합니까?",
+                "hint": "활성화될 경우 탑승자는 내려올 때까지 탈 것에서 분리되어 이동할 수 없다.",
+                "noLock": "고정 안 함"
+            },
+            "riderRotate": {
+                "name": "탑승자가 탈 것과 함께 회전합니까?",
+                "hint": "활성화될 경우 탈 것과 탑승자가 함께 회전한다."
+            },
+            "riderX": {
+                "name": "탑승자 수평 정렬"
+            },
+            "riderY": {
+                "name": "탑승자 수직 정렬"
+            },
+            "shouldChat": {
+                "name": "채팅 메시지를 보냄",
+                "hint": "탈 것에 오르내리는 메시지를 채팅으로 보내는가?"
+            },
+            "mountMsg": {
+                "name": "올라탐 메시지 형식",
+                "hint": "활성화될 경우 올라탔을 때의 메시지 형식 지정({rider} 와 {mount} 의 이름이 대체됨)"
+            },
+            "dismountMsg": {
+                "name": "내려옴 메시지 형식",
+                "hint": "활성화될 경우 내려왔을 때의 메시지 형식 지정({rider} 와 {mount} 의 이름이 대체됨)"
+            }
+        }
+    }
+}
