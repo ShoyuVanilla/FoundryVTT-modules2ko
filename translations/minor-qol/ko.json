@@ -84,5 +84,6 @@
     "minor-qol.MagicResistanceFeat": "마법 저항",
     "minor-qol.halfDamage": "피해의 절반",
     "minor-qol.halfDamageAlt": "절반 피해",
+    "minor-qol.noDamageText": "성공으로 인한 무피해",
     "minor-qol.": ""
 }
