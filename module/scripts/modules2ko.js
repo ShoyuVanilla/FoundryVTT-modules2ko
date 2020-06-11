@@ -1,6 +1,8 @@
 class Modules2ko {
 
-	_l10nMetadata;
+	constructor() {
+		this._l10nMetadata = null
+	}
 
 	get modules() {
 		const modules = [];
