@@ -192,5 +192,6 @@
     "dynamiceffects.macroExecute": "실행",
     "dynamiceffects.override": "취소",
     "dynamiceffects.forceCritical": "치명타 피해",
-    "dynamiceffects.attackAdvantage": "공격 유리함"
+    "dynamiceffects.attackAdvantage": "공격 유리함",
+    "dynamiceffects.conditions": "상태 이상"
 }
