@@ -25,11 +25,6 @@ class Modules2ko {
 		return modules;
 	}
 
-	async onReady() {
-		this._l10nMetadata = await this._loadJsonObject('modules/modules2ko/metadata.json');
-		await this._loadTranslations();
-	}
-
 	async _loadJsonObject(src) {
 		const resp = await fetch(src);
 		if ( resp.status !== 200 ) {
@@ -45,7 +40,8 @@ class Modules2ko {
 		});
 	}
 
-	async _loadTranslations() {
+	async loadTranslations() {
+		this._l10nMetadata = await this._loadJsonObject('modules/modules2ko/metadata.json');
 		const promises = [];
 		const settings = game.settings.get('modules2ko', 'settings');
 		game.modules.forEach((module, moduleName) => {
@@ -54,17 +50,25 @@ class Modules2ko {
 				if (active) promises.push(this._loadJsonObject(`modules/modules2ko/localizations/${moduleName}.json`));
 			}
 		});
-		await Promise.all(promises);
-		for (let p of promises) {
-			let json = await p;
-			mergeObject(game.i18n.translations, json, {inplace: true});
-		}
+		let translations;
+		await Promise.all(promises).then((values) => {
+			translations = values;
+		});
+		return translations;
 	}
 
+	applyTranslations(translations) {
+		for (let t of translations) {
+			mergeObject(game.i18n.translations, t, {inplace: true});
+		}
+	}
 }
 
-Hooks.once('ready', async () => {
-	if (game.i18n.lang !== "ko") return;
+const modules2koSetupPromise = new Promise((resolve, reject) => {
+	Hooks.once('setup', () => resolve());
+});
+
+Hooks.once('init', async () => {
 	game.modules2ko = new Modules2ko();
 
 	game.settings.register("modules2ko", "settings", {
@@ -76,7 +80,9 @@ Hooks.once('ready', async () => {
 		onChange: settings => window.location.reload()
 	});
 
-	await game.modules2ko.onReady();
+	await Promise.all([game.modules2ko.loadTranslations(), modules2koSetupPromise]).then(values => {
+		game.modules2ko.applyTranslations(values[0]);
+	});
 
 	game.settings.registerMenu("modules2ko", "modules2ko", {
 		name: "modules2ko.config",
