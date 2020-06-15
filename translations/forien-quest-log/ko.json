@@ -1,0 +1,31 @@
+{
+    "ForienQuestLog.InProgress": "진행",
+    "ForienQuestLog.Completed": "완료",
+    "ForienQuestLog.Failed": "실패",
+    "ForienQuestLog.Hidden": "숨김",
+  
+    "ForienQuestLog.Details": "세부 사항",
+    "ForienQuestLog.GMNotes": "GM Notes",
+  
+    "ForienQuestLog.Notifications.QuestMoved": "퀘스트를 새 폴더로 이동하고 새 상테를 부여함: {target}",
+  
+    "ForienQuestLog.Buttons.AddNewQuest": "새 퀘스트 추가",
+  
+    "ForienQuestLog.QuestTypes.InProgress": "진행",
+    "ForienQuestLog.QuestTypes.Completed": "완됨",
+    "ForienQuestLog.QuestTypes.Failed": "실패",
+    "ForienQuestLog.QuestTypes.Hidden": "숨김",
+    "ForienQuestLog.Quests": "퀘스트",
+    "ForienQuestLog.QuestGiver": "퀘스트 의뢰자",
+    "ForienQuestLog.QuestName": "제목",
+    "ForienQuestLog.QuestTasks": "목표",
+    "ForienQuestLog.Actions": "액션",
+  
+    "ForienQuestLog.showTasks.Enable": "퀘스트 기록에 목표 보이기",
+    "ForienQuestLog.showTasks.EnableHint": "퀘스트 기록에서 퀘스트 제목 옆에 목표를 표시할 것인지와 표시할 방법을 결정한다. 이는 퀘스트 개별 미리보기에는 영향을 미치지 않는다.",
+  
+    "ForienQuestLog.showTasks.default": "목표 보이기: 함/전체",
+    "ForienQuestLog.showTasks.onlyCurrent": "목표 보이기: 함",
+    "ForienQuestLog.showTasks.no": "\"목표\" 열 숨기기"
+  }
+  
