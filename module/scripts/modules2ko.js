@@ -18,6 +18,7 @@ class Modules2ko {
 					moduleVersion: module.data.version,
 					translationVersion: info.version,
 					isOutdated: isNewerVersion(module.data.version, info.version),
+					isPredated: isNewerVersion(info.version, module.data.version),
 					active: active
 				});
 			}

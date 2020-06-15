@@ -14,9 +14,11 @@
                 <h3 class="package-title">{{this.title}}</h3>
                 <div class="package-tags">
                     {{#if this.isOutdated }}
-                    <span class="tag unavailable">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} | {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
+                    <span class="tag unavailable">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} &gt; {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
+                    {{else if this.isPredated}}
+                    <span class="tag unknown">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} &lt; {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
                     {{else}}
-                    <span class="tag version">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} | {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
+                    <span class="tag version">{{localize "modules2ko.module-version"}} {{ this.moduleVersion }} &equals; {{localize "modules2ko.translated-version"}} {{ this.translationVersion }}</span>
                     {{/if}}
                 </div>
             </div>
