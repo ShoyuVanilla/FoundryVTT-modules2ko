@@ -190,8 +190,11 @@
     "dynamiceffects.tokenEffects.Hint":  "특정 토큰(예 : 투명/가려짐)을 대상으로 하는 효과 허용(실험적 기능)",
     "dynamiceffects.macro": "매크로",
     "dynamiceffects.macroExecute": "실행",
-    "dynamiceffects.override": "취소",
+    "dynamiceffects.itemMacro": "아이템 매크로",
+    "dynamiceffects.override": "덮어쓰기",
     "dynamiceffects.forceCritical": "치명타 피해",
     "dynamiceffects.attackAdvantage": "공격 유리함",
-    "dynamiceffects.conditions": "상태 이상"
+    "dynamiceffects.conditions": "상태 이상",
+    "dynamiceffects.calculateArmor.Name": "AC 자동 계산",
+    "dynamiceffects.calculateArmor.Hint":  "사용할 경우 Dynamic Effects가 인벤토리 내의 갑옷/방패의 AC를 자동적으로 계산한다. 그 외 아이템들도 여전히 AC를 수정할 수 있다."
 }
