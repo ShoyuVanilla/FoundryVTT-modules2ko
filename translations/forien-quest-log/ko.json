@@ -6,11 +6,12 @@
   
     "ForienQuestLog.Details": "세부 사항",
     "ForienQuestLog.GMNotes": "GM Notes",
+    "ForienQuestLog.NewQuest": "새 퀘스트",
   
     "ForienQuestLog.Notifications.QuestMoved": "퀘스트를 새 폴더로 이동하고 새 상테를 부여함: {target}",
   
     "ForienQuestLog.Buttons.AddNewQuest": "새 퀘스트 추가",
-    "ForienQuestLog.Buttons.AddNewTask": "새 퀘스트",
+    "ForienQuestLog.Buttons.AddNewTask": "새 목표",
   
     "ForienQuestLog.QuestTypes.InProgress": "진행 중",
     "ForienQuestLog.QuestTypes.Completed": "완료",
@@ -26,10 +27,19 @@
   
     "ForienQuestLog.showTasks.Enable": "퀘스트 기록에 목표 보이기",
     "ForienQuestLog.showTasks.EnableHint": "퀘스트 기록에서 퀘스트 제목 옆에 목표를 표시할 것인지와 표시할 방법을 결정한다. 이는 퀘스트 개별 미리보기에는 영향을 미치지 않는다.",
-  
     "ForienQuestLog.showTasks.default": "목표 보이기: 함/전체",
     "ForienQuestLog.showTasks.onlyCurrent": "목표 보이기: 함",
     "ForienQuestLog.showTasks.no": "\"목표\" 열 숨기기",
+
+    "ForienQuestLog.navStyle.Enable": "내비게이션 스타일",
+    "ForienQuestLog.navStyle.EnableHint": "퀘스트 로그의 내비게이션 표시 방법을 정한다.",
+    "ForienQuestLog.navStyle.bookmarks": "북마크",
+    "ForienQuestLog.navStyle.classic": "고전적 탭",
+
+    "ForienQuestLog.titleAlign.Enable": "퀘스트 제목 정렬",
+    "ForienQuestLog.titleAlign.EnableHint": "퀘스트 기록에 퀘스트 제목을 배치하는 방법을 정한다.",
+    "ForienQuestLog.titleAlign.left": "좌측 정렬",
+    "ForienQuestLog.titleAlign.center": "중앙 정렬",
 
     "ForienQuestLog.QuestLogButton": "퀘스트 기록",
     "ForienQuestLog.QuestForm.Title": "새 퀘스트 추가",
