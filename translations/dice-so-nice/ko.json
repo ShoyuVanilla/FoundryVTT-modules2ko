@@ -29,11 +29,12 @@
     "DICESONICE.Low" : "낮음",
     "DICESONICE.High" : "높음",
     "DICESONICE.shadowQuality" : "그림자 퀄리티",
+    "DICESONICE.bumpMapping" : "고급 광원",
     "DICESONICE.sounds" : "소리 효과",
     "DICESONICE.system" : "주사위 프리셋 (면)",
     "DICESONICE.maxDiceNumber" : "주사위 최대 수",
     "DICESONICE.maxDiceNumberHint" : "애니메이션에 표시되는 최대 주사위의 수이다. 수가 많을 수록 성능에 악영향을 준다.",
-    "DICESONICE.saveMessage": "업데이트 된 3D 주사위 설정 구성",
+    "DICESONICE.saveMessage": "3D 주사위 설정 구성이 업데이트 되었습니다.",
     "DICESONICE.migrateMessage": "'Dice So Nice' 설정이 2.0 버전에 성공적으로 옮겨졌습니다!",
 
     "DICESONICE.TextureClouds" : "구름",
@@ -86,10 +87,11 @@
     "DICESONICE.ColorFoundry" : "파운드리 VTT",
 
     "DICESONICE.DamageTypes" : "피해 유형",
-    "DICESONICE.ThemesSoNice" : "테마 짱 멋져",
+    "DICESONICE.ThemesSoNice" : "Themes So Nice",
     "DICESONICE.AcquiredTaste" : "후천적 입맛",
     "DICESONICE.Colors" : "색상",
 
     "DICESONICE.System.Standard" : "일반적",
-    "DICESONICE.System.Dot" : "점"
+    "DICESONICE.System.Dot" : "점 (흰색)",
+    "DICESONICE.System.DotBlack" : "점 (검은색)"
 }
