@@ -2,9 +2,9 @@
 	"name": "modules2ko",
 	"title": "Modules to Korean",
 	"description": "한국어 공식 번역이 포함되지 않은 모듈을 한국어로 번역합니다.",
-	"version": "0.1.11",
-	"minimumCoreVersion" : "0.6.2",
-	"compatibleCoreVersion": "0.6.3",
+	"version": "0.1.12",
+	"minimumCoreVersion" : "0.6.0",
+	"compatibleCoreVersion": "0.6.4",
 	"author": "Shoyu Vanilla",
 
 	"scripts": ["scripts/modules2ko.js"],
@@ -12,5 +12,5 @@
 
 	"url": "https://github.com/ShoyuVanilla/FoundryVTT-modules2ko",
 	"manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-modules2ko/master/module/module.json",
-	"download": "https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/releases/download/v0.1.11/release.zip"
+	"download": "https://github.com/ShoyuVanilla/FoundryVTT-modules2ko/releases/download/v0.1.12/release.zip"
 }
