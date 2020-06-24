@@ -105,7 +105,7 @@
     "dynamiceffects.Edit": "아이템 편집",
     "dynamiceffects.Delete": "아이템 삭제",
     "dynamiceffects.EffectTarget": "효과 대상",
-    "dynamiceffects.ActiveEffectName": "수동 효과",
+    "dynamiceffects.ActiveEffectName": "사용시 효과",
     "dynamiceffects.PassiveEffectName": "상시 효과",
     "dynamiceffects.EffectMode": "모드",
     "dynamiceffects.EffectValue": "값",
