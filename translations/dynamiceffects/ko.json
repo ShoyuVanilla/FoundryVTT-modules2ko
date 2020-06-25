@@ -196,5 +196,7 @@
     "dynamiceffects.attackAdvantage": "공격 유리함",
     "dynamiceffects.conditions": "상태 이상",
     "dynamiceffects.calculateArmor.Name": "AC 자동 계산",
-    "dynamiceffects.calculateArmor.Hint":  "사용할 경우 Dynamic Effects가 인벤토리 내의 갑옷/방패의 AC를 자동적으로 계산한다. 그 외 아이템들도 여전히 AC를 수정할 수 있다."
+    "dynamiceffects.calculateArmor.Hint":  "사용할 경우 Dynamic Effects가 인벤토리 내의 갑옷/방패의 AC를 자동적으로 계산한다. 그 외 아이템들도 여전히 AC를 수정할 수 있다.",
+    "dynamiceffects.applyingEffects": "효과 적용",
+    "dynamiceffects.removingEffects": "효과 삭제"
 }
