@@ -1,0 +1,403 @@
+{
+  "Advantage": "호조건",
+  "Average": "보통",
+  "Cancel": "취소",
+  "Difficult": "어려움",
+  "Disadvantage": "악조건",
+  "Easy": "쉬움",
+  "Formidable": "역경",
+  "Impossible": "불가능",
+  "Normal": "보통",
+  "Routine": "일상적",
+  "Simple": "간단함",
+  "TWODSIX": {
+    "Damage": {
+      "DealDamage": "입힌 피해량",
+      "Damage": "피해량",
+      "TotalDamage": "총 피해량",
+      "Characteristics": "특성치",
+      "Max": "최대 수치",
+      "Current": "현재 수치",
+      "ResultingStat": "결과값",
+      "UnallocatedDamage": "할당되지 않은 피해량",
+      "CharacterIsDead": "캐릭터가 사망했습니다.",
+      "DealDamageTo": "Deal damage to _ACTOR_NAME_"
+    },
+    "Dialogs": {
+      "ROFPickerTitle": "사격 조정",
+      "ROFSingle": "단발 사격",
+      "ROFBurst": "3점 사격",
+      "ROFFull": "자동 사격"
+    },
+    "Actor": {
+      "Age": "나이",
+      "CharacterImage": "캐릭터 사진",
+      "CharacterName": "캐릭터 이름",
+      "Characteristics": {
+        "DEX": "민첩",
+        "EDU": "교육",
+        "END": "인내",
+        "INT": "지능",
+        "PSI": "PSI",
+        "SOC": "지위",
+        "STR": "근력"
+      },
+      "DeleteOwnedItem": "소유한 아이템을 삭제.",
+      "Finances": {
+        "CASH_ON_HAND": "현금",
+        "DEBT": "채무",
+        "FINANCIAL_NOTES": "재정 관련 메모",
+        "LIVING_COSTS": "생활비",
+        "PENSION": "연금",
+        "SHIP_PAYMENTS_MONTHLY": "월간 우주선 유지비"
+      },
+      "Gender": "성별",
+      "Contamination": "누적 피폭량",
+      "Lifeblood": "종족",
+      "HomeWorld": "고향 세계",
+      "Info": {
+        "ALLIES": "동맹",
+        "BIOGRAPHY": "종족 특성",
+        "CONTACTS": "연락책",
+        "DESCRIPTION": "설명",
+        "ENEMIES": "적"
+      },
+      "Items": {
+        "ARMOR": "장갑복",
+        "AUGMENTS": "개조품",
+        "Ammo": "탄약",
+        "Armor": "장갑복",
+        "CONSUMABLES": "소비품",
+        "Count": "수량",
+        "CreateItem": "아이템 생성",
+        "Damage": "피해량",
+        "DeleteItem": "아이템 삭제",
+        "EQUIPMENT": "장비",
+        "EditItem": "아이템 편집",
+        "Effect": "달성도",
+        "Location": "부위",
+        "Name": "이름",
+        "Qty": "수량",
+        "Range": "범위",
+        "Refill": "재충전",
+        "Reload": "재장전",
+        "ShortDescr": "요약 설명",
+        "Subtype": "유형",
+        "TL": "TL",
+        "WEAPONS": "무기",
+        "Weight": "중량"
+      },
+      "Notes": {
+        "NOTES": "특성치 메모란"
+      },
+      "Rolling": "주사위 굴림",
+      "Skills": {
+        "AddSkill": ">>기술 추가<<",
+        "DeleteItem": "아이템 삭제",
+        "EditItem": "아이템 편집",
+        "EditOrRemove": "편집 / 제거",
+        "Level": "Level",
+        "Modifier": "수정치",
+        "SkillName": "기술명",
+        "Total": "Total",
+        "Untrained": "미습득",
+        "SkillRollTooltip": "Shows the skill roll dialog. Shift-clicking rolls a skill check applying no modifier and assumes a difficulty of 8",
+        "InvertedSkillRollTooltip": "Rolls a skill check applying no modifier and assumes a difficulty of 8. Shift-clicking shows the skill roll dialog",
+        "JOAT": "다재다능"
+      },
+      "Species": "종족",
+      "Tabs": {
+        "Finances": "재정",
+        "Info": "Info",
+        "Inventory": "인벤토리",
+        "Notes": "메모",
+        "Skills": "기술"
+      },
+      "UnknownActorType": "Unknown actor type",
+      "using": "사용중"
+    },
+    "Chat": {
+      "Roll": {
+        "Difficulty": "난이도",
+        "Mode": "Roll mode",
+        "OtherModifiers": "기타 수정치",
+        "Type": "주사위 유형"
+      }
+    },
+    "Create": "생성하기",
+    "Handlebars": {
+      "CantShowCharacteristic": "You need to reselect the characteristic for all skills marked with XXX. Sorry..."
+    },
+    "Items": {
+      "Armor": {
+        "Armor": "장갑복",
+        "SecondaryArmor": "내부 장갑복",
+        "RadProt": "피폭 보호"
+      },
+      "Augmentation": {
+        "Arms": "무기",
+        "AugEffect": "달성도",
+        "AugLocation": "부위",
+        "FullBody": "전신",
+        "Head": "머리",
+        "Legs": "사지",
+        "Torso": "흉부",
+        "ValueCr": "Cr 가격"
+      },
+      "Equipment": {
+        "AssignSkill": "기술 배치",
+        "Description": "설명",
+        "ItemName": "아이템명",
+        "Location": "부위",
+        "Price": "가격",
+        "Quantity": "수량",
+        "ShortDescription": "요약 설명",
+        "SkillModifier": "기술 수정치",
+        "TL": "TL",
+        "Weight": "중량"
+      },
+      "Items": {
+        "AssignArmor": "장갑복 배치",
+        "AssignAugment": "개조 배치",
+        "AssignEquipment": "장비 배치",
+        "AssignJunk": "기타물품 배치",
+        "AssignTool": "도구 배치",
+        "AssignWeapon": "무기 배치",
+        "AssignConsumable": "소비품 배치",
+        "Inventory": "인벤토리",
+        "ItemType": "유형",
+        "MoveStorage": "저장위치를 옮깁니다",
+        "New": "새로운",
+        "Storage": "저장고"
+      },
+      "Skills": {
+        "DEX": "민첩",
+        "EDU": "교육",
+        "END": "인내",
+        "INT": "지능",
+        "Level": "Level",
+        "Modifier": "수정치",
+        "NONE": "---",
+        "PSI": "PSI",
+        "SOC": "지위",
+        "STR": "근력",
+        "SkillName": "기술명"
+      },
+      "Tool": {
+        "Bonus": "추가 "
+      },
+      "Consumable": {
+        "Types": {
+          "air": "산소",
+          "drugs": "약물",
+          "food": "식량",
+          "fuel": "연료",
+          "magazine": "탄창",
+          "power_cell": "동력원",
+          "other": "기타"
+        },
+        "Size": "크기",
+        "Subtype": "유형",
+        "Count": "수량",
+        "DropConsumablesHere": "소비품을 이곳에 놓을수 있습니다.",
+        "RemoveConsumable": "소비품을 제거합니다.",
+        "RemoveConsumableFrom": "Remove consumable _CONSUMABLE_NAME_ from _ITEM_NAME_?"
+      },
+      "Weapon": {
+        "Ammo": "탄약",
+        "Damage": "피해량",
+        "Range": "사거리",
+        "lawLevel": "Law Level",
+        "rangeBand": "사격 범위",
+        "weaponType": "무기 유형",
+        "damageType": "피해 유형",
+        "rateOfFire": "Rate of Fire/Auto X",
+        "recoil": "반동",
+        "UseAsAmmunitionForAttack": "Use as ammunition for attack",
+        "MagazineCost": "탄창/동력원 비용"
+      }
+    },
+    "Migration": {
+      "Completed": "Twodsix System Migration to version {version} completed!",
+      "DoNotClose": "Migrating Twodsix to {version}. Do not close your game or shut down your server.",
+      "MigrationError0.6.25": "Migration error: Couldn't parse price for ${name}, it was ${price} but is now 0."
+    },
+    "Modules": {
+      "compendiumFolders": {
+        "missing": "The included compendiums for the various Cepheus variants often use the 'Compendium Folders' module. If you use those, please install the Compendium Folders module in Foundry VTT. Or turn off this warning in System Settings.",
+        "disabled": "Please enable the 'Compendium Folders' module in this world if you intend to use the included compendiums. Or turn off this warning in System Settings."
+      }
+    },
+    "No": "아니요",
+    "Rolls": {
+      "AdjustedDamage": "달성도에 따른 피해량",
+      "Cancel": "취소",
+      "DamageUsing": "사용된 피해량",
+      "Effect": "달성도",
+      "Roll": "굴림",
+      "Rolling": "굴림",
+      "With": "with,
+      "resultShows": "결과값 보기",
+      "sum": "합산",
+      "using": "사용 {characteristic}"
+    },
+    "Settings": {
+      "ruleset": {
+        "hint": "This will configure the below settings with the best options for the given ruleset. Note that the rulesets at the top are the best supported ones. See https://github.com/xdy/twodsix-foundryvtt/blob/master/docs/docs.md for details.",
+        "name": "Ruleset"
+      },
+      "absoluteBonusValueForEachTimeIncrement": {
+        "hint": "Leave empty to use default (+/-1). Not currently used.",
+        "name": "What bonus/penalty to give per each time increment change in a task."
+      },
+      "absoluteCriticalEffectValue": {
+        "hint": "Defaults to 99, which means that effect is ignored.",
+        "name": "What effect is required for a throw to be considered a critical success/failure (i.e. be colored green/red)."
+      },
+      "automateDamageRollOnHit": {
+        "hint": "checked=Roll damage, modified by effect of skill roll. unchecked=Don't roll damage.",
+        "name": "Automatically roll damage on skill rolls that hit (i.e. get effect > 0) with items that do damage?"
+      },
+      "criticalNaturalAffectsEffect": {
+        "hint": "checked=Regardless of success consider a natural 2 to have an effect of -1 and a 12 to have an effect of 0, unchecked=Use normal rules",
+        "name": "Whether a natural 2 or 12 should have special treatment as regards to success/failure."
+      },
+      "defaultTokenSettings": {
+        "hint": "Automatically set advised prototype token settings to newly created Actors.",
+        "name": "Default Prototype Token Settings"
+      },
+      "effectOrTotal": {
+        "hint": "checked=Show effect (i.e. roll+modifiers-target number, usually 8), unchecked=Show total (i.e. roll+modifiers)",
+        "name": "Show effect or total roll value for skill and characteristic rolls."
+      },
+      "initiativeFormula": {
+        "hint": "Like: \"2d6 + @characteristics.dexterity.mod\"",
+        "name": "Initiative Formula"
+      },
+      "maxSkillLevel": {
+        "hint": "Leave empty to use default (9).",
+        "name": "Maximum skill level."
+      },
+      "modifierForZeroCharacteristic": {
+        "hint": "Leave empty to use default (-2). Does not automatically recalculate modifiers for existing characters.",
+        "name": "Modifier for characteristic value of zero."
+      },
+      "showMissingCompendiumWarnings": {
+        "hint": "Whether to show warnings for missing/disabled modules on world start.",
+        "name": "Show warnings about missing/disabled modules."
+      },
+      "systemMigrationVersion": {
+        "hint": "Records the schema version for the Twodsix system. (Don't modify this unless you know what you are doing)",
+        "name": "System Schema Version"
+      },
+      "termForAdvantage": {
+        "hint": "Don't use the same as for termForDisadvantage...",
+        "name": "What you want to call rolls with advantage (3d6kh2)."
+      },
+      "termForDisadvantage": {
+        "hint": "Don't use the same as for termForAdvantage...",
+        "name": "What you want to call rolls with disadvantage (3d6kl2)."
+      },
+      "ShowLawLevel": {
+        "hint": "checked=Show the 'Law Level' field, unchecked=Hide it",
+        "name": "Show the 'Law Level' field on weapon sheets"
+      },
+      "ShowRecoil": {
+        "hint": "checked=Show the 'Recoil' field, unchecked=Hide it",
+        "name": "Show the 'Recoil' field on weapon sheets"
+      },
+      "ShowRateOfFire": {
+        "name": "Show the 'Rate of Fire' field on weapon sheets",
+        "hint": "checked=Show the 'Rate of Fire' field, unchecked=Hide it"
+      },
+      "ShowDamageType": {
+        "hint": "checked=Show the 'Damage Type' field, unchecked=Hide it",
+        "name": "Show the 'Damage Type' field on weapon sheets"
+      },
+      "ShowWeaponType": {
+        "hint": "checked=Show the 'Weapon Type' field, unchecked=Hide it",
+        "name": "Show the 'Weapon Type' field on weapon sheets"
+      },
+      "ShowRangeBandAndHideRange": {
+        "hint": "checked=Shows 'Range Band', unchecked=Shows 'Range'",
+        "name": "Show 'Range Band' and *hide* 'Range' on weapon sheets and the character sheet"
+      },
+      "autofireRulesUsed": {
+        "hint": "Select which variant's auto/burst fire rules should be used.",
+        "name": "Select which variant's auto/burst fire rules should be used."
+      },
+      "difficultyListUsed": {
+        "hint": "Select which variant's difficulty list should be used.",
+        "name": "Select which variant's difficulty list should be used."
+      },
+      "difficultiesAsTargetNumber": {
+        "hint": "checked=Use target number rather than modifier for difficulties, unchecked=Use modifiers",
+        "name": "Use target numbers rather than modifiers for difficulties."
+      },
+      "ExperimentalFeatures": {
+        "hint": "checked=Boldly use ugly and buggy experimental features that just maybe won't delete your game world, unchecked=Hide them like any sane person would",
+        "name": "Show ugly, buggy and unfinished features. I.e., kind of like all the other features that are not hidden by this flag. :)"
+      },
+      "hideUntrainedSkills": {
+        "hint": "checked=Show pseudo-skill 'Untrained' instead of all untrained skills. unchecked=Show all untrained skills",
+        "name": "Hide all untrained skills, instead show a single pseudo-skill named 'Untrained'. This also makes it so new skills are added at 0 instead of the untrained skill value.",
+        "warningReset": "After saving the system settings all skills using the pseudo-skill Untrained will be permanently reset to using no skill.This action cannot be undone.",
+        "warningUpdateWeapon": "After saving the system settings all actors' weapons that do not have a skill will be updated to use the pseudo-skill Untrained.This action cannot be undone.",
+        "continue": "Do you want to continue?",
+        "warning": "Warning!"
+      },
+      "invertSkillRollShiftClick": {
+        "hint": "Clicking on a skill roll or dragging damage to a character normally shows a dialog, shift-clicking applies default values (Average skill roll or automatic damage distribution). Checking this box swaps this behavior.",
+        "name": "Invert behavior for shift-clicking for skill rolls and shift-dragging for taking damage"
+      },
+      "lifebloodInsteadOfCharacteristics": {
+        "hint": "Show END and 'Lifeblood' (uses STR below the covers) as characteristics. Useful for Cepheus Atom, Barbaric!, etc.",
+        "name": "Show END and 'Lifeblood' (STR) as characteristics."
+      },
+      "showContaminationBelowLifeblood": {
+        "hint": "Show Contamination below Lifeblood. Only useful along with the 'show END and lifeblood' setting.",
+        "name": "Show Contamination below Lifeblood. "
+      }
+    },
+    "CloseAndCreateNew": "닫고 새로 생성",
+    "Copy": "복사",
+    "Yes": "네",
+    "Name": "이름",
+    "itemTypes": {
+      "equipment": "장비",
+      "weapon": "무기",
+      "armor": "장갑복",
+      "augment": "개조t",
+      "storage": "저장소",
+      "tool": "도구",
+      "junk": "기타물품",
+      "skills": "기술목록",
+      "skill": "기술l",
+      "consumable": "소비품"
+    },
+    "Errors": {
+      "NoSkillForSkillRoll": "You tried to perform a skill roll without specifying a skill",
+      "NoCharacteristicForRoll": "You tried to perform a characteristics roll without specifying a characteristic",
+      "NoROFForAttack": "Rate of fire must be specified for this attack",
+      "NoDamageForWeapon": "This weapon has not specified the damage it does",
+      "TooFewToReload": "Too few _NAME_ to _REFILL_ACTION_",
+      "NoAmmo": "You are out of ammunition. You need to reload before shooting!",
+      "OnlyOwnedItems": "Can only drop to items that are owned by an actor",
+      "SkillsConsumables": "Skills can't have consumables",
+      "DraggingSomething": "Dragging something that can't be dragged",
+      "OnlyDropItems": "You can only drop items",
+      "OnlyDropConsumables": "Only consumables can be dropped on an item.",
+      "DropFailedWith": "Drop failed with _ERROR_MSG_",
+      "CouldNotFindItem": "Could not find an item with id: _ITEM_ID_",
+      "DraggedCompendiumIsNotItem": "The dragged compendium object is not an item."
+    },
+    "Warnings": {
+      "ActorMissingItem": "Your controlled Actor does not have an item with id: _ITEM_ID_",
+      "AutoDamageForMultipleTargetsNotImplemented": "Automatically damaging multiple targets (using Auto X) is currently not supported",
+      "MaxStatVal": "The value exceededs the maximum stat value",
+      "StatValBelowZero": "The value cannot be below zero",
+      "DecreaseEnduranceFirst": "Endurance should be decreased before other stats"
+    }
+  },
+  "VeryDifficult": "매우 어려움"
+}
